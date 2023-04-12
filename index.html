@@ -1,0 +1,52 @@
+<!-- Copyright 2023 by CHICO Research Group. -->
+<!-- <!DOCTYPE html> -->
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover" />
+	<meta name="description" content="ASD web." />
+	<link rel="stylesheet" media='screen and (min-width: 480px) and (max-width: 768px)' href="css/teaw_phone.css" />
+	<link rel="stylesheet" media='screen and (min-width: 769px) and (max-width: 1200px)' href="css/teaw_tablet.css" />
+	<link rel="stylesheet" media='screen and (min-width: 1201px) and (max-width: 2560px)' href="css/teaw_desktop.css" />
+	<link rel="stylesheet" media='screen and (min-width: 2561px)' href="css/teaw_large.css" />
+	<title>TEAw: ASD Emotions Detection Web Tool</title>
+</head>
+
+<body>
+
+	<header>
+		<h1>???<h1>
+				<!-- <button class="miBoton" onclick="TogetherJS(this); return false;">Collaborate</a> -->
+	</header>
+
+	<section id="contenido">
+		<div id="editor">
+			<div id="divDiagrama"
+				style="border: 1px solid black; width: 100%; height: 100%; margin-top: 3px; position: relative; -webkit-tap-highlight-color: rgba(255, 255, 255, 0);">
+				<canvas tabindex="0" width="1317" height="622"
+					style="position: absolute; top: 0px; left: 0px; z-index: 2; user-select: none; touch-action: none; width: 1054px; height: 498px;">This
+					text is displayed if your browser does not support the Canvas HTML element.</canvas>
+				<div style="position: absolute; overflow: auto; width: 1054px; height: 496px; z-index: 1;">
+					<div style="position: absolute; width: 1px; height: 1px;"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>Copyright © 2023 CHICO Research Group | All rights reserved</p>
+	</footer>
+
+	<script>
+		var TogetherJSConfig_autoStart = true;
+		var TogetherJSConfig_suppressJoinConfirmation = true;
+		var TogetherJSConfig_dontShowClicks = ":not(canvas"
+		TogetherJSConfig_hubBase = "https://pickled-nervous-bar.glitch.me/";
+	</script>
+	<script src="https://togetherjs.com/togetherjs-min.js"></script>
+	<script src="gojs/go-debug.js"></script>
+	<script src="js/teaw_emotions.js"></script>
+</body>
+
+</html>
